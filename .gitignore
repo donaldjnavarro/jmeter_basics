@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Reports and results
+reports/
+*.jtl
+html-report-*/
+
+# JMeter binaries (optional if you want CI to download)
+jmeter/apache-jmeter-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
