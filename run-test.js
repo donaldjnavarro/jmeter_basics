@@ -14,8 +14,8 @@ const jmeterPath = path.join(
 );
 
 const testPlan = path.join('tests', 'sample.jmx');
-const resultsFile = path.join('reports', 'results.jtl');
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+const resultsFile = path.join('reports', `results-${timestamp}.jtl`);
 const reportFolder = path.join('reports', `html-report-${timestamp}`);
 const logFile = path.join('reports', `jmeter-${timestamp}.log`);
 
