@@ -6,6 +6,7 @@ A basic JMeter proof of concept to get a project started.
 
 1. Make a `.env` file based on the `.env.template` file. Update its values if needed.
 2. Run `npm run setup` to download and unpack JMeter into the folder structure
+3. Make sure you have Java installed
 
 # Usage
 
